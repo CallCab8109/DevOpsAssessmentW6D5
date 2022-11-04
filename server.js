@@ -17,6 +17,11 @@ var rollbar = new Rollbar({
   
   // record a generic message and send it to Rollbar
   rollbar.log("Hello world!");
+  rollbar.log("sup jared");
+  rollbar.log("someone loaded the site");
+  rollbar.log("it said 4 more events, didnt specify what kind");
+  rollbar.log("see all bots dosent work and i wanna fix it");
+
 
 
 
