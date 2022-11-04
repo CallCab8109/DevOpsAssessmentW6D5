@@ -1,5 +1,5 @@
-let myFunctions = require('./utils')
+let myFunction = require('./utils')
 
-test('shuffleArray should', () => {
-    expect(myFunctions.shuffleArray()).toReturn()
+describe('shuffleArray should', () => {
+    expect(myFunction.shuffleArray(1, 2, 3)).toContain(1)
 })
