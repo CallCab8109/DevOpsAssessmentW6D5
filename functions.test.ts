@@ -1,5 +1,10 @@
-let myFunction = require('./utils')
+const {shuffleArray} = require('./utils')
 
 describe('shuffleArray should', () => {
-    expect(myFunction.shuffleArray(1, 2, 3)).toContain(1)
+test("whatever", () => {
+    expect(shuffleArray([1, 2, 3])).toHaveLength(3)
+})
+test("test2", () => {
+    expect(shuffleArray([1, 2, 3])).toBeInstanceOf(Array)
+})
 })
